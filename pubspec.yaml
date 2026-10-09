@@ -1,0 +1,19 @@
+name: article_scraper
+description: A Dart-based news article scraper for financial and market news
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  html: ^0.15.4
+  xml: ^6.3.0
+  intl: ^0.18.1
+  args: ^2.4.2
+  googleapis: ^14.0.0
+  googleapis_auth: ^2.0.0
+
+dev_dependencies:
+  test: ^1.21.0
+  lints: ^2.1.1
